@@ -10,13 +10,13 @@
     "items": [
         {
             "title": "Tournament 2024-11-06 Men, evening.",
-            "playerLabel": "Arena "Tokyo"",
+            "playerLabel": "Arena Tokyo",
             "image": "https://img.youtube.com/vi/61CFhMvAbFU/hqdefault.jpg",
             "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=dXNeIqjkVyc"
         },
         {
             "title": "Tournament 2024-11-06 Men, evening.",
-            "playerLabel": "Arena "Tokyo"",
+            "playerLabel": "Arena Seoul",
             "image": "https://img.youtube.com/vi/pfHOmhmeTzo/hqdefault.jpg",
             "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=EIzyDQqMBag"
         }
