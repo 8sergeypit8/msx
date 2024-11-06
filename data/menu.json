@@ -11,6 +11,11 @@
             "label": "Base"
         },
         {
+            "icon": "smart-display",
+            "label": "Setka Live",
+            "data": "https://8sergeypit8.github.io/msx/data/base/SetkaLive.json"
+        },
+        {
             "icon": "movie",
             "label": "Videos",
             "data": "https://8sergeypit8.github.io/msx/data/base/videos.json"
