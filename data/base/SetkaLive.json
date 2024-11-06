@@ -11,13 +11,13 @@
         {
             "title": "Tournament 2024-11-06 Men, evening.",
             "playerLabel": "Arena Tokyo",
-            "image": "https://img.youtube.com/vi/61CFhMvAbFU/hqdefault.jpg",
+            "image": "https://i.ytimg.com/vi/dXNeIqjkVyc/hqdefault.jpg?v=672a4e41&sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVkxjiB0wBsOY3_102ZiN6mP02lw",
             "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=dXNeIqjkVyc"
         },
         {
             "title": "Tournament 2024-11-06 Men, evening.",
             "playerLabel": "Arena Seoul",
-            "image": "https://img.youtube.com/vi/pfHOmhmeTzo/hqdefault.jpg",
+            "image": "https://i.ytimg.com/vi/EIzyDQqMBag/hqdefault.jpg?v=672a4847&sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBS_NDJ3wTx5QIC7UaYxcGN-z2sag",
             "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=EIzyDQqMBag"
         },
         {
