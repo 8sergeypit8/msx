@@ -39,9 +39,9 @@
                     "enumerate": true,
                     "color": "msx-glass",
                     "titleHeader": "{col:msx-white}First Item",
-                    "titleFooter": "Duis rutrum orci purus",
+                    "titleFooter": "A. LEBRUN (FRA) I. PRYSHCHEPA (UKR)_2023_WTTC_Durban_Day 1_-0665",
                     "imageFiller": "cover",
-                    "image": "https://picsum.photos/seed/msx_24764bb8_item0/408/252",
+                    "image": "https://live.staticflickr.com/65535/52912999050_b441dcd111.jpg",
                     "action": "image:https://picsum.photos/seed/msx_24764bb8_item0/1920/1080",
                     "properties": {
                         "image:extension": "| {col:msx-white}First Item"
