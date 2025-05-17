@@ -1,6 +1,9 @@
 {
-  "start": {
-    "type": "html",
-    "url": "https://8sergeypit8.github.io/msx/dual.html"
-  }
+  "menu": [
+    {
+      "title": "Стрим с переключением",
+      "type": "html",
+      "url": "https://8sergeypit8.github.io/msx/dual.html"
+    }
+  ]
 }
