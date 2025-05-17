@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Переключаемые стримы</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      overflow: hidden;
+    }
+    iframe {
+      border: none;
+    }
+    #main {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 1;
+    }
+    #pip {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 30vw;
+      height: 17vw;
+      border: 3px solid white;
+      box-shadow: 0 0 10px black;
+      z-index: 2;
+    }
+    #toggle {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      z-index: 3;
+      padding: 10px 20px;
+      font-size: 18px;
+      background: rgba(255, 255, 255, 0.8);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!-- Основной и малый стрим -->
+  <iframe id="main" src="https://www.youtube.com/embed/qL8kAU503KQ?autoplay=1&mute=1&playsinline=1" allowfullscreen></iframe>
+  <iframe id="pip" src="https://www.youtube.com/embed/_jTCGma6Bk0?autoplay=1&mute=1&playsinline=1" allowfullscreen></iframe>
+
+  <!-- Кнопка переключения -->
+  <button id="toggle">Переключить</button>
+
+  <script>
+    let main = document.getElementById('main');
+    let pip = document.getElementById('pip');
+    let toggle = document.getElementById('toggle');
+
+    let srcMain = main.src;
+    let srcPip = pip.src;
+
+    toggle.addEventListener('click', () => {
+      // Меняем местами ссылки
+      main.src = srcPip;
+      pip.src = srcMain;
+
+      // Обновляем переменные
+      let temp = srcMain;
+      srcMain = srcPip;
+      srcPip = temp;
+    });
+  </script>
+</body>
+</html>
