@@ -1,5 +1,16 @@
-{
-    "name": "GitHub Pages Example",
-    "version": "1.0.1",
-    "parameter": "menu:https://8sergeypit8.github.io/msx/data/menu.json"
+﻿{
+  "pages": [
+    {
+      "title": "Стримы с переключением",
+      "type": "list",
+      "layout": "0",
+      "items": [
+        {
+          "title": "Смотреть стримы",
+          "type": "html",
+          "url": "https://8sergeypit8.github.io/msx/dual.html"
+        }
+      ]
+    }
+  ]
 }
